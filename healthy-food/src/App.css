@@ -28,6 +28,9 @@ img {
   margin-left: 30vw;
 }
 
+.navbar {
+  padding: 0.5rem 0 !important;
+}
 
 /* SECTION 1 */
 
@@ -37,20 +40,25 @@ img {
 
 .section1-left-container {
   width: 38vw;
-  padding: 30vh 0 0 17vw;
+  padding: 30vh 0 0 10vw;
 }
 
 .section1-left-container h2 {
   font-size: 48px;
   font-weight: bold;
-  width: 22vw;
+  width: 25vw;
   margin-bottom: 8vh;
   letter-spacing: 1.44px;
+  color: #2d3561;
 }
 
 .search-bar form {
   flex-flow: nowrap;
   width: 35vw;
+}
+
+.search-bar input {
+  width: 65% !important;
 }
 
 .image-section1 {
@@ -208,3 +216,40 @@ img {
   text-align: left;
   color: #9e9baf;
 }
+
+/* SECTION 5 */
+
+.section5-left-container {
+  width: 38vw;
+  padding: 30vh 0 0 12vw;
+}
+
+.section5-left-container h4 {
+  font-size: 32px;
+  font-weight: bold;
+  width: 30vw;
+  margin-bottom: 8vh;
+  letter-spacing: 1.44px;
+  color: #2d3561;
+
+}
+
+.search-bar-5 form {
+  flex-flow: nowrap;
+  width: 40vw;
+}
+
+.search-bar-5 input {
+  width: 65% !important;
+}
+
+.image-section5 {
+  width: 100%;
+}
+
+.image-section5 img {
+  width: 90%;
+}
+
+/* FOOTER */
+

@@ -14,8 +14,8 @@ class Section1 extends Component {
           </h2>
           <div className="search-bar">
           <form className="form-inline my-2 my-lg-0">
-      <input className="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+      <input className="form-control mr-sm-2" type="search" placeholder="Search healthy recipes" aria-label="Pesquisar" />
+      <button className="buttons btn btn-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
     </form>
           </div>
         </div>
