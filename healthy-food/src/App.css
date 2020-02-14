@@ -56,3 +56,104 @@ img {
   width: 90vw;
 }
 
+/* SECTION 2 */
+
+.section2 {
+  height: 100vh;
+  background-color: #fafafc;
+}
+
+.section2-banner {
+
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.19;
+  letter-spacing: 0.96px;
+  text-align: center;
+  color: #1d164d;
+}
+
+.section2-banner p {
+  width: 510px;
+  height: 49px;
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: 0.48px;
+  text-align: center;
+  color: #9e9baf;
+}
+
+.recipe-card {
+  width: 60vw;
+  padding-left: 0 !important;
+  border-radius: 7px;
+  box-shadow: 0 15px 20px 0 rgba(29, 22, 77, 0.08);
+  background-color: #ffffff;
+}
+
+.recipe-card img{
+  width: 20vw;
+}
+
+.recipe-name h4 {
+  font-size: 24px;
+  line-height: 1.42;
+  letter-spacing: 0.72px;
+  text-align: left;
+  color: #1d164d;
+  font-weight: bold;
+}
+
+.buttons {
+  background-color: #badc58 !important;
+  border-color: #badc58 !important;
+}
+
+/* SECTION 3 */
+
+.section3 {
+  height: 100vh;
+}
+
+.section3-text {
+  margin-top:19vh;
+  width: 50vw;
+}
+
+.section3-text button {
+  box-shadow: 0px 16px 12px -14px #badc58;
+}
+
+.section3-text h4 {
+  width: 33vw;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: 0.96px;
+  text-align: left;
+  color: #2d3561;
+  margin-bottom: 3vh;
+}
+
+.section3-text p {
+  width: 420px;
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #bcbcbc;
+}
