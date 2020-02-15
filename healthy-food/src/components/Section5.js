@@ -7,9 +7,7 @@ class Section5 extends Component {
 
   render() {
     return (
-      <section className='section3 d-flex'>
-
-        
+      <section className='d-flex'>
 <div className='section5-left-container mt-5'>
           <h4>
           Join our membership

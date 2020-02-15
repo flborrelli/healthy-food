@@ -18,7 +18,7 @@ class Section2 extends Component {
 
         <div className="container">
         
-          <div className="row align-items-center justify-content-center mb-4">
+          <div className="recipe-card-container row align-items-center justify-content-center">
             <div className="recipe-card col-sm-5 d-flex mr-4">
               <img className='pr-4' src="./images/comida_1.svg" alt="plate-1"/>
               <div className='recipe-name mt-4'>
@@ -36,7 +36,7 @@ class Section2 extends Component {
             </div>
           </div>
 
-          <div className="row align-items-center justify-content-center mb-4">
+          <div className="recipe-card-container row align-items-center justify-content-center mb-4">
             <div className="recipe-card col-sm-5 d-flex mr-4">
               <img className='pr-4' src="./images/comida_3.svg" alt="recipe-3"/>
               <div className='recipe-name mt-4'>

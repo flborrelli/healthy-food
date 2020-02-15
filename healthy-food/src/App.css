@@ -38,7 +38,7 @@ img {
 }
 
 .nav-logo {
-  width: 224px;
+  width: 15vw;
   font-size: 32px;
   font-weight: bold;
   line-height: 1.22;
@@ -48,7 +48,7 @@ img {
 }
 
 .nav-button{
-  width: 130px;
+  width: 10vw;
   border-radius: 5px;
   color: #badc58 !important;
   border: none !important;
@@ -59,7 +59,7 @@ img {
 /* SECTION 1 */
 
 .section1 {
-  height: 100vh;
+  height: 100%;
 }
 
 .section1-left-container {
@@ -89,10 +89,14 @@ img {
   width: 90vw;
 }
 
+.buttons i {
+  font-size: 0.8rem;
+}
+
 /* SECTION 2 */
 
 .section2 {
-  height: 100vh;
+  height: 100%;
   background-color: #fafafc;
 }
 
@@ -101,8 +105,6 @@ img {
   font-family: Montserrat;
   font-size: 32px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.19;
   letter-spacing: 0.96px;
   text-align: center;
@@ -110,17 +112,18 @@ img {
 }
 
 .section2-banner p {
-  width: 510px;
-  height: 49px;
+  width: 40vw;
+  height: 8vh;
   font-family: Muli;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.69;
   letter-spacing: 0.48px;
   text-align: center;
   color: #9e9baf;
+}
+
+.recipe-card-container {
+  margin-bottom: 3vh;
 }
 
 .recipe-card {
@@ -152,7 +155,7 @@ img {
 /* SECTION 3 */
 
 .section3 {
-  height: 100vh;
+  height: 100%;
 }
 
 .section3-text {
@@ -177,7 +180,7 @@ img {
 }
 
 .section3-text p {
-  width: 420px;
+  width: 32vw;
   font-family: Muli;
   font-size: 16px;
   line-height: 1.69;
@@ -188,11 +191,12 @@ img {
 
 /* SECTION 4 */
 .section4 {
-  height: 100vh;
+  height: 100%;
 }
 
 .section4-container {
   border-radius: 7px;
+  margin-bottom: 10vh;
   width: 25vw;
   box-shadow: 0 15px 20px 0 rgba(29, 22, 77, 0.08);
   background-color: #ffffff;
@@ -243,6 +247,241 @@ img {
 
 /* SECTION 5 */
 
+
+.section5-left-container {
+  width: 38vw;
+  padding: 30vh 0 0 12vw;
+}
+
+.section5-left-container h4 {
+  font-size: 32px;
+  font-weight: bold;
+  width: 30vw;
+  margin-bottom: 8vh;
+  letter-spacing: 1.44px;
+  color: #2d3561;
+
+}
+
+.search-bar-5 form {
+  flex-flow: nowrap;
+  width: 40vw;
+}
+
+.search-bar-5 input {
+  width: 65% !important;
+}
+
+.image-section5 {
+  width: 100%;
+}
+
+.image-section5 img {
+  width: 90%;
+}
+
+/* FOOTER */
+
+.footer-container {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.copyrights {
+  width: 30vw;
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d164d;
+  margin-left: 12vw;
+}
+
+.policy-conditions {
+  width: 30vw;
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #9e9baf;
+}
+
+.policy {
+  width: 20vw;
+}
+
+.conditions {
+ width: 30vw;
+}
+
+/* RESPONSIVITY */
+
+@media (max-device-width: 425px){
+
+
+/* SECTION 1 */
+
+.section1 {
+  height: 100%;
+}
+
+.image-section1 {
+  width: 100%;
+}
+
+.section1-left-container {
+  width: 10vw;
+  padding: 55vh 0 0 5vw;
+}
+
+.section1-left-container h2 {
+  font-size: 22px;  
+  width: 90vw;
+  text-align: center;
+  margin: 5vh 0 3vh 0;
+}
+
+.search-bar form {
+  width: 80vw;
+  margin-left: 5vw;
+}
+
+.search-bar input {
+  width: 100% !important;
+  margin-right: 2vw;
+}
+
+/* SECTION 2 */
+
+.section2 {
+  height: 100%;
+}
+
+.section2-banner p {
+  width: 90vw;
+}
+
+.recipe-card {
+  width: 90vw !important;
+  margin-right: 30px !important;
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+}
+
+.recipe-card-container {
+  margin-bottom: 0;
+}
+
+.recipe-card img{
+  width: 50vw;
+}
+
+.recipe-name h4 {
+  font-size: 0.8rem;
+}
+
+.buttons {
+  font-size: 1rem !important;
+}
+
+/* SECTION 3 */
+
+.section3 {
+  background-image: url("/images/bloco_services.svg");
+  background-size: 80vw;
+  background-repeat: no-repeat !important;
+  height: 100%;
+}
+
+.section3 figure {
+  display: none;
+}
+
+.section3-text {
+  margin-top: 5vh;
+  width: 50vw;
+}
+
+.section3-text p {
+  margin-top: 30vh;
+  width: 50vw;
+}
+
+.section3-text button {
+  box-shadow: 0px 16px 12px -14px #badc58;
+}
+
+.section3-text h4 {
+  width: 40vw;
+  font-size: 20px;
+  margin-bottom: 22vh;
+  margin-top: 20vh;
+  margin-left: 60vw;
+}
+
+.section3-text p {
+  width: 85vw;
+  text-align: center;
+  color: #bcbcbc;
+  margin: 0 0 2vh 6vw !important;
+}
+
+.know-button {
+  width: 60vw;
+  margin-left: 20vw;
+  margin-bottom: 3vh;
+}
+
+/* SECTION 4 */
+.section4 {
+  height: 100%;
+}
+
+.section4-container {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  width: 60vw;
+}
+
+.section4-infos h4 {
+  width: 50vw;
+  font-size: 24px;
+}
+
+.user-infos img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-infos figure {
+  width: 52px;
+  height: 52px;
+  margin-right: 1vw;
+}
+
+.user-infos img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-infos p {
+  width: 30vw;
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #9e9baf;
+}
+
+/* SECTION 5 */
+
 .section5-left-container {
   width: 38vw;
   padding: 30vh 0 0 12vw;
@@ -283,7 +522,7 @@ img {
 }
 
 .copyrights {
-  width: 342px;
+  width: 30vw;
   font-family: Muli;
   font-size: 16px;
   line-height: 1.25;
@@ -309,4 +548,8 @@ img {
 
 .conditions {
  width: 30vw;
+}
+
+
+
 }
