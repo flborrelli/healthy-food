@@ -25,12 +25,36 @@ img {
 }
 
 .nav-buttons {
-  margin-left: 30vw;
+  margin-left: 25vw;
 }
 
 .navbar {
   padding: 0.5rem 0 !important;
 }
+
+.navbar-links {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-logo {
+  width: 224px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.22;
+  text-align: left;
+  color: #badc58 !important;
+  margin-left: 10vw;
+}
+
+.nav-button{
+  width: 130px;
+  border-radius: 5px;
+  color: #badc58 !important;
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
 
 /* SECTION 1 */
 
@@ -253,3 +277,36 @@ img {
 
 /* FOOTER */
 
+.footer-container {
+  height: 8vh;
+  background-color: #ffffff;
+}
+
+.copyrights {
+  width: 342px;
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d164d;
+  margin-left: 12vw;
+}
+
+.policy-conditions {
+  width: 30vw;
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #9e9baf;
+}
+
+.policy {
+  width: 20vw;
+}
+
+.conditions {
+ width: 30vw;
+}

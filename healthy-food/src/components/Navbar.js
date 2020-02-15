@@ -8,8 +8,8 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar-top navbar navbar-expand-lg navbar-light position-absolute">
-        <NavLink className="navbar-brand ml-5 pl-5" to="#">
+      <nav className="navbar-top navbar navbar-expand-lg navbar-light position-absolute pt-2">
+        <NavLink className="nav-logo navbar-brand" to="#">
           Healthy Food
         </NavLink>
         <button
@@ -25,23 +25,23 @@ class Navbar extends Component {
         </button>
         <div className="nav-buttons collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item active">
-              <NavLink className="nav-link" to="#">
+            <li className="nav-item active ml-3">
+              <NavLink className="navbar-links nav-link" to="#">
                 Healthy Recipes <span className="sr-only">(Página atual)</span>
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="#">
+            <li className="nav-item ml-3">
+              <NavLink className="navbar-links nav-link" to="#">
                 Blog
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="#">
+            <li className="nav-item ml-3">
+              <NavLink className="navbar-links nav-link" to="#">
                 Join
               </NavLink>
             </li>
-            <li className="nav-item mr-5 pr-5">
-              <button type="button" class="btn btn-success">Register</button>
+            <li className="nav-item ml-4 pr-5">
+              <button type="button" class="nav-button btn btn-success">Register</button>
             </li>
           </ul>
         </div>
