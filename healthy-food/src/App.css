@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +5,7 @@
 
 html {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -15,7 +13,7 @@ img {
 }
 
 .App {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* NAVBAR */
@@ -47,7 +45,7 @@ img {
   margin-left: 10vw;
 }
 
-.nav-button{
+.nav-button {
   width: 10vw;
   border-radius: 5px;
   color: #badc58 !important;
@@ -55,7 +53,6 @@ img {
   font-weight: bolder !important;
   background-color: #ffffff !important;
 }
-
 
 /* SECTION 1 */
 
@@ -108,8 +105,6 @@ img {
 }
 
 .section2-banner {
-
-  font-family: Montserrat;
   font-size: 32px;
   font-weight: bold;
   line-height: 2.19;
@@ -141,7 +136,7 @@ img {
   background-color: #ffffff;
 }
 
-.recipe-card img{
+.recipe-card img {
   width: 20vw;
 }
 
@@ -172,7 +167,7 @@ img {
 }
 
 .section3-text {
-  margin-top:19vh;
+  margin-top: 19vh;
   width: 50vw;
   margin-left: 55vw;
 }
@@ -183,7 +178,6 @@ img {
 
 .section3-text h4 {
   width: 33vw;
-  font-family: Montserrat;
   font-size: 32px;
   font-weight: bold;
   line-height: 1.34;
@@ -236,8 +230,6 @@ img {
   background-color: #ffffff;
 }
 
-
-
 .section4-infos h4 {
   font-size: 24px;
   font-weight: bold;
@@ -247,13 +239,12 @@ img {
   color: #1d164d;
 }
 
-.h4-1 .h4-3 .h4-4{
+.h4-1 .h4-3 .h4-4 {
   width: 20vw;
 }
 
 .h4-2 {
   width: 25vw;
-  
 }
 
 .user-infos figure {
@@ -290,7 +281,6 @@ img {
   padding-bottom: 34vh;
 }
 
-
 .section5-left-container {
   width: 38vw;
   padding: 25vh 0 0 12vw;
@@ -303,7 +293,6 @@ img {
   margin-bottom: 8vh;
   letter-spacing: 1.44px;
   color: #2d3561;
-
 }
 
 .search-bar-5 form {
@@ -336,7 +325,6 @@ img {
   font-family: Muli;
   font-size: 16px;
   line-height: 1.25;
-  letter-spacing: normal;
   text-align: left;
   color: #1d164d;
   margin-left: 12vw;
@@ -357,14 +345,13 @@ img {
 }
 
 .conditions {
- width: 30vw;
+  width: 30vw;
 }
 
 /* RESPONSIVITY MOBILE L*/
 
-@media (max-device-width: 425px){
-
-  /* NAVBAR */  
+@media (max-device-width: 425px) {
+  /* NAVBAR */
 
   .navbar-container {
     padding: 0;
@@ -373,8 +360,8 @@ img {
   .button-box {
     margin-left: 25vw;
   }
-  
-  .nav-button{
+
+  .nav-button {
     width: 10vw;
     border-radius: 5px;
     color: #badc58 !important;
@@ -382,7 +369,7 @@ img {
     font-weight: bolder !important;
     background-color: #ffffff !important;
   }
-  
+
   .navbar-toggler {
     margin-left: 45vw;
   }
@@ -397,12 +384,12 @@ img {
     display: flex;
     padding: 8px;
   }
-  
+
   .navbar-links {
     color: white !important;
     font-weight: bold;
   }
-  
+
   .nav-logo {
     width: 15vw;
     font-size: 32px;
@@ -412,8 +399,8 @@ img {
     color: #ffffff !important;
     margin-left: 5vw;
   }
-  
-  .nav-button{
+
+  .nav-button {
     width: fit-content;
     border-radius: 5px;
     color: #badc58 !important;
@@ -421,359 +408,346 @@ img {
     background-color: #ffffff !important;
   }
 
+  /* SECTION 1 */
 
-/* SECTION 1 */
+  .section1 {
+    height: 100%;
+    background-size: 95%;
+    background-position-x: right;
+    background-position-y: top;
+    padding-bottom: 0vh;
+  }
 
-.section1 {
-  height: 100%;
-  background-size: 95%;
-  background-position-x: right;
-  background-position-y: top;
-  padding-bottom: 0vh;
-}
+  .image-section1 {
+    display: none;
+  }
 
-.image-section1 {
-  display: none;
-}
+  .section1-left-container {
+    width: 10vw;
+    padding: 55vh 0 0 5vw;
+  }
 
-.section1-left-container {
-  width: 10vw;
-  padding: 55vh 0 0 5vw;
-}
+  .section1-left-container h2 {
+    font-size: 22px;
+    width: 90vw;
+    text-align: center;
+    margin: 5vh 0 3vh 0;
+  }
 
-.section1-left-container h2 {
-  font-size: 22px;  
-  width: 90vw;
-  text-align: center;
-  margin: 5vh 0 3vh 0;
-}
+  .search-bar form {
+    width: 80vw;
+    margin-left: 5vw;
+  }
 
-.search-bar form {
-  width: 80vw;
-  margin-left: 5vw;
-}
+  .search-bar input {
+    width: 100% !important;
+    margin-right: 2vw;
+  }
 
-.search-bar input {
-  width: 100% !important;
-  margin-right: 2vw;
-}
+  /* SECTION 2 */
 
-/* SECTION 2 */
+  .section2 {
+    height: 100%;
+  }
 
-.section2 {
-  height: 100%;
-}
+  .section2-banner p {
+    width: 90vw;
+    margin-bottom: 8vh;
+  }
 
-.section2-banner p {
-  width: 90vw;
-  margin-bottom: 8vh;
-}
+  .recipe-card {
+    width: 90vw !important;
+    margin-right: 30px !important;
+    margin-bottom: 3vh;
+    margin-left: 5vw;
+  }
 
-.recipe-card {
-  width: 90vw !important;
-  margin-right: 30px !important;
-  margin-bottom: 3vh;
-  margin-left: 5vw;
-}
+  .recipe-card-container {
+    margin-bottom: 0;
+  }
 
-.recipe-card-container {
-  margin-bottom: 0;
-}
+  .recipe-card img {
+    width: 50vw;
+  }
 
-.recipe-card img{
-  width: 50vw;
-}
+  .recipe-name h4 {
+    font-size: 0.8rem;
+  }
 
-.recipe-name h4 {
-  font-size: 0.8rem;
-}
+  .buttons {
+    font-size: 1rem !important;
+  }
 
-.buttons {
-  font-size: 1rem !important;
-}
+  /* SECTION 3 */
 
-/* SECTION 3 */
+  .section3 {
+    background-size: 80vw;
+    padding-bottom: 2vh;
+  }
 
-.section3 {
-  background-size: 80vw;
-  padding-bottom: 2vh;
-}
+  .section3 figure {
+    display: none;
+  }
 
-.section3 figure {
-  display: none;
-}
+  .section3-text {
+    margin-top: 5vh;
+    width: 50vw;
+    margin-left: 0vw;
+  }
 
-.section3-text {
-  margin-top: 5vh;
-  width: 50vw;
-  margin-left: 0vw;
-}
+  .section3-text p {
+    margin-top: 30vh;
+    width: 50vw;
+  }
 
-.section3-text p {
-  margin-top: 30vh;
-  width: 50vw;
-  
-}
+  .section3-text button {
+    box-shadow: 0px 16px 12px -14px #badc58;
+  }
 
-.section3-text button {
-  box-shadow: 0px 16px 12px -14px #badc58;
-}
+  .section3-text h4 {
+    width: 40vw;
+    font-size: 20px;
+    margin-bottom: 22vh;
+    margin-top: 20vh;
+    margin-left: 60vw;
+  }
 
-.section3-text h4 {
-  width: 40vw;
-  font-size: 20px;
-  margin-bottom: 22vh;
-  margin-top: 20vh;
-  margin-left: 60vw;
-}
+  .section3-text p {
+    width: 85vw;
+    text-align: center;
+    color: #bcbcbc;
+    margin: 0 0 2vh 6vw !important;
+  }
 
-.section3-text p {
-  width: 85vw;
-  text-align: center;
-  color: #bcbcbc;
-  margin: 0 0 2vh 6vw !important;
-}
+  .know-button {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-bottom: 3vh;
+  }
 
-.know-button {
-  width: 60vw;
-  margin-left: 20vw;
-  margin-bottom: 3vh;
-}
+  /* SECTION 4 */
 
-/* SECTION 4 */
+  .section4 {
+    height: 100%;
+  }
 
-.section4 {
-  height: 100%;
-}
+  .section4-banner p {
+    width: 80vw;
+    margin-bottom: 4vh;
+  }
 
-.section4-banner p {
-  width: 80vw;
-  margin-bottom: 4vh;
-}
+  .section4-container {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    width: 60vw;
+  }
 
-.section4-container {
-  margin-top: 5vh;
-  margin-bottom: 3vh;
-  width: 60vw;
-}
+  .section4-infos h4 {
+    width: 50vw;
+    font-size: 24px;
+  }
 
-.section4-infos h4 {
-  width: 50vw;
-  font-size: 24px;
-}
+  .user-infos img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
-.user-infos img {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+  .user-infos figure {
+    width: 52px;
+    height: 52px;
+    margin-right: 1vw;
+  }
 
-.user-infos figure {
-  width: 52px;
-  height: 52px;
-  margin-right: 1vw;
-}
+  .user-infos img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
-.user-infos img {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+  .user-infos p {
+    width: 30vw;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.32px;
+    text-align: left;
+  }
 
-.user-infos p {
-  width: 30vw;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.32px;
-  text-align: left;
-}
+  /* SECTION 5 */
 
-/* SECTION 5 */
+  .section5 {
+    background-size: 70%;
+    background-position-x: right;
+    background-position-y: top;
+    padding-bottom: 0;
+  }
 
-.section5 {
-  background-size: 70%;
-  background-position-x: right;
-  background-position-y: top;
-  padding-bottom: 0;
-}
+  .section5-left-container {
+    width: 38vw;
+    padding: 30vh 10vw 0 5vw;
+  }
 
-.section5-left-container {
-  width: 38vw;
-  padding: 30vh 10vw 0 5vw;
-}
+  .section5-left-container h4 {
+    font-size: 0.9rem;
+    width: 50vw;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
 
-.section5-left-container h4 {
-  font-size: 0.9rem;
-  width: 50vw;
-  margin-bottom: 3vh;
-  text-align: center;
+  .search-bar-5 form {
+    flex-flow: nowrap;
+    width: 80vw;
+  }
 
-}
+  .search-bar-5 input {
+    width: 100% !important;
+    height: fit-content;
+  }
 
-.search-bar-5 form {
-  flex-flow: nowrap;
-  width: 80vw;
-}
+  .section5-button {
+    height: fit-content;
+    margin-left: 5vw;
+  }
 
-.search-bar-5 input {
-  width: 100% !important;
-  height: fit-content;
-}
+  .image-section5 {
+    width: 0;
+  }
 
-.section5-button {
-  height: fit-content;
-  margin-left: 5vw;
+  .image-section5 img {
+    display: none;
+  }
 
-}
+  /* FOOTER */
 
-.image-section5 {
-  width: 0;
-}
+  .footer-container {
+    margin: 3vh 5vw;
+  }
 
-.image-section5 img {
-  display: none;
-}
+  .copyrights {
+    width: 40vw;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-left: 3vw;
+  }
 
-/* FOOTER */
+  .policy-conditions {
+    width: 30vw;
+    font-size: 0.7rem;
+    text-align: center;
+  }
 
-.footer-container {
-  margin: 3vh 5vw;
-}
+  .policy {
+    width: 40vw;
+  }
 
-.copyrights {
-  width: 40vw;
-  font-size: 0.7rem;
-  text-align: center;
-  margin-left: 3vw;
-}
-
-.policy-conditions {
-  width: 30vw;
-  font-size: 0.7rem;
-  text-align: center;
-}
-
-.policy {
-  width: 40vw;
-}
-
-.conditions {
- width: 30vw;
- margin: 0 10vw 0 10vw;
-}
-
+  .conditions {
+    width: 30vw;
+    margin: 0 10vw 0 10vw;
+  }
 }
 
 /* RESPONSIVITY IPHONE X */
 
-@media (max-device-width: 375px){
-
+@media (max-device-width: 375px) {
   .navbar-container {
     padding: 0;
   }
-  
-  
+
   .section1-left-container {
     padding: 35vh 0 0 5vw;
   }
 
   /* SECTION 2 */
 
-.recipe-name h4 {
-  font-size: 0.7rem;
-}
+  .recipe-name h4 {
+    font-size: 0.7rem;
+  }
 
-.buttons {
-  font-size: 0.8rem !important;
-}
+  .buttons {
+    font-size: 0.8rem !important;
+  }
 
-/* SECTION 3 */
+  /* SECTION 3 */
 
-.section3-text {
-  margin-top: 0vh;
-}
+  .section3-text {
+    margin-top: 0vh;
+  }
 
-.section3-text p {
-  margin-top: 0vh;
-  width: 50vw;
-  
-}
+  .section3-text p {
+    margin-top: 0vh;
+    width: 50vw;
+  }
 
-.section3-text h4 {
-  margin-bottom: 15vh;
-  margin-top: 15vh;
-}
+  .section3-text h4 {
+    margin-bottom: 15vh;
+    margin-top: 15vh;
+  }
 
-.section3-text p {
-  width: 85vw;
-  text-align: center;
-  color: #bcbcbc;
-  margin: 0 0 2vh 6vw !important;
-}
+  .section3-text p {
+    width: 85vw;
+    text-align: center;
+    color: #bcbcbc;
+    margin: 0 0 2vh 6vw !important;
+  }
 
-.section5 {
-  background-size: 70%;
-  background-position-x: right;
-  background-position-y: top;
-  padding-bottom: 0;
-}
+  .section5 {
+    background-size: 70%;
+    background-position-x: right;
+    background-position-y: top;
+    padding-bottom: 0;
+  }
 
-.section5-left-container {
-  width: 38vw;
-  padding: 18vh 10vw 0 5vw;
-}
+  .section5-left-container {
+    width: 38vw;
+    padding: 18vh 10vw 0 5vw;
+  }
 
-.section5-left-container h4 {
-  font-size: 0.9rem;
-  width: 50vw;
-  margin-bottom: 3vh;
-  text-align: center;
+  .section5-left-container h4 {
+    font-size: 0.9rem;
+    width: 50vw;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
 
-}
+  .search-bar-5 form {
+    flex-flow: nowrap;
+    width: 80vw;
+  }
 
-.search-bar-5 form {
-  flex-flow: nowrap;
-  width: 80vw;
-}
+  .search-bar-5 input {
+    width: 100% !important;
+    height: fit-content;
+  }
 
-.search-bar-5 input {
-  width: 100% !important;
-  height: fit-content;
-}
+  .section5-button {
+    height: fit-content;
+    margin-left: 5vw;
+  }
 
-.section5-button {
-  height: fit-content;
-  margin-left: 5vw;
+  .image-section5 {
+    width: 0;
+  }
 
-}
+  .image-section5 img {
+    display: none;
+  }
 
-.image-section5 {
-  width: 0;
-}
+  .footer-container {
+    margin: 0vh 5vw;
+  }
 
-.image-section5 img {
-  display: none;
-}
+  .conditions {
+    width: 30vw;
+    margin: 0 10vw 0 10vw;
+  }
 
-.footer-container {
-  margin: 0vh 5vw;
-}
+  .copyrights {
+    font-size: 0.6rem;
+  }
 
-.conditions {
-  width: 30vw;
-  margin: 0 10vw 0 10vw;
- }
-
- .copyrights {
-  font-size: 0.6rem;
-}
-
-.policy-conditions {
-  font-size: 0.6rem;
-}
-
-
-
+  .policy-conditions {
+    font-size: 0.6rem;
+  }
 }
