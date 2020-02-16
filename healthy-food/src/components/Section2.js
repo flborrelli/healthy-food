@@ -23,7 +23,7 @@ class Section2 extends Component {
               <img className='pr-4' src="./images/comida_1.svg" alt="plate-1"/>
               <div className='recipe-name mt-4'>
                 <h4>Broccoli Salad with Bacon</h4>
-                <button type="button" class="buttons btn btn-success">See Recipe</button>
+                <button type="button" className="buttons btn btn-success">See Recipe</button>
               </div>
             </div>
 
@@ -31,7 +31,7 @@ class Section2 extends Component {
               <img className='pr-4' src="./images/comida_2.svg" alt="recipe-2"/>
               <div className='recipe-name mt-4'>
                 <h4>Classic Beef Burgers</h4>
-                <button type="button" class="buttons btn btn-success">See Recipe</button>
+                <button type="button" className="buttons btn btn-success">See Recipe</button>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ class Section2 extends Component {
               <img className='pr-4' src="./images/comida_3.svg" alt="recipe-3"/>
               <div className='recipe-name mt-4'>
                 <h4>Classic Potato Salad</h4>
-                <button type="button" class="buttons btn btn-success">See Recipe</button>
+                <button type="button" className="buttons btn btn-success">See Recipe</button>
               </div>
             </div>
 
@@ -49,7 +49,7 @@ class Section2 extends Component {
               <img className='pr-4' src="./images/comida_4.svg" alt="recipe-4"/>
               <div className='recipe-name mt-4'>
                 <h4>Cherry Cobbler on the Grill</h4>
-                <button type="button" class="buttons btn btn-success">See Recipe</button>
+                <button type="button" className="buttons btn btn-success">See Recipe</button>
               </div>
             </div>
           </div>

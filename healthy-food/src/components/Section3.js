@@ -7,12 +7,7 @@ class Section3 extends Component {
 
   render() {
     return (
-      <section className='section3 d-flex'>
-
-        <figure>
-          <img src="./images/bloco_services.svg" alt="services"/>
-        </figure>
-        
+      <section className='section3 d-flex'>    
         <div className="section3-text">
           <h4>The best services ready To serve you</h4>
           <div>

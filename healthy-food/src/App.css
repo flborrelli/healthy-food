@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 
 * {
   margin: 0;
@@ -16,20 +15,21 @@ img {
 }
 
 .App {
-
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* NAVBAR */
+.navbar-container {
+  padding: 2vh 0 0 0;
+}
+
 .navbar-top {
+  width: 100%;
   background-color: transparent !important;
 }
 
-.nav-buttons {
-  margin-left: 25vw;
-}
-
-.navbar {
-  padding: 0.5rem 0 !important;
+.button-box {
+  margin-left: 20vw;
 }
 
 .navbar-links {
@@ -52,6 +52,7 @@ img {
   border-radius: 5px;
   color: #badc58 !important;
   border: none !important;
+  font-weight: bolder !important;
   background-color: #ffffff !important;
 }
 
@@ -60,6 +61,12 @@ img {
 
 .section1 {
   height: 100%;
+  background-image: url("/images/illustration.svg");
+  background-size: 60%;
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  padding-bottom: 30vh;
 }
 
 .section1-left-container {
@@ -156,11 +163,18 @@ img {
 
 .section3 {
   height: 100%;
+  background-image: url("/images/bloco_services.svg");
+  background-size: 55%;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  padding-bottom: 23vh;
 }
 
 .section3-text {
   margin-top:19vh;
   width: 50vw;
+  margin-left: 55vw;
 }
 
 .section3-text button {
@@ -192,6 +206,26 @@ img {
 /* SECTION 4 */
 .section4 {
   height: 100%;
+}
+
+.section4-banner {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 2.19;
+  letter-spacing: 0.96px;
+  text-align: center;
+  color: #1d164d;
+}
+
+.section4-banner p {
+  width: 40vw;
+  height: 8vh;
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 1.69;
+  letter-spacing: 0.48px;
+  text-align: center;
+  color: #9e9baf;
 }
 
 .section4-container {
@@ -247,16 +281,25 @@ img {
 
 /* SECTION 5 */
 
+.section5 {
+  background-image: url("/images/bloco_final_image.svg");
+  background-size: 50%;
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat !important;
+  padding-bottom: 34vh;
+}
+
 
 .section5-left-container {
   width: 38vw;
-  padding: 30vh 0 0 12vw;
+  padding: 25vh 0 0 12vw;
 }
 
 .section5-left-container h4 {
   font-size: 32px;
   font-weight: bold;
-  width: 30vw;
+  width: 33vw;
   margin-bottom: 8vh;
   letter-spacing: 1.44px;
   color: #2d3561;
@@ -285,6 +328,7 @@ img {
 .footer-container {
   height: 100%;
   background-color: #ffffff;
+  padding: 3vh 0;
 }
 
 .copyrights {
@@ -316,19 +360,80 @@ img {
  width: 30vw;
 }
 
-/* RESPONSIVITY */
+/* RESPONSIVITY MOBILE L*/
 
 @media (max-device-width: 425px){
+
+  /* NAVBAR */  
+
+  .navbar-container {
+    padding: 0;
+  }
+
+  .button-box {
+    margin-left: 25vw;
+  }
+  
+  .nav-button{
+    width: 10vw;
+    border-radius: 5px;
+    color: #badc58 !important;
+    border: none !important;
+    font-weight: bolder !important;
+    background-color: #ffffff !important;
+  }
+  
+  .navbar-toggler {
+    margin-left: 45vw;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(116, 202, 142, 0.9);
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    border-radius: 10px;
+    display: flex;
+    padding: 8px;
+  }
+  
+  .navbar-links {
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  .nav-logo {
+    width: 15vw;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.22;
+    text-align: left;
+    color: #ffffff !important;
+    margin-left: 5vw;
+  }
+  
+  .nav-button{
+    width: fit-content;
+    border-radius: 5px;
+    color: #badc58 !important;
+    border: none !important;
+    background-color: #ffffff !important;
+  }
 
 
 /* SECTION 1 */
 
 .section1 {
   height: 100%;
+  background-size: 95%;
+  background-position-x: right;
+  background-position-y: top;
+  padding-bottom: 0vh;
 }
 
 .image-section1 {
-  width: 100%;
+  display: none;
 }
 
 .section1-left-container {
@@ -361,6 +466,7 @@ img {
 
 .section2-banner p {
   width: 90vw;
+  margin-bottom: 8vh;
 }
 
 .recipe-card {
@@ -389,10 +495,8 @@ img {
 /* SECTION 3 */
 
 .section3 {
-  background-image: url("/images/bloco_services.svg");
   background-size: 80vw;
-  background-repeat: no-repeat !important;
-  height: 100%;
+  padding-bottom: 2vh;
 }
 
 .section3 figure {
@@ -402,11 +506,13 @@ img {
 .section3-text {
   margin-top: 5vh;
   width: 50vw;
+  margin-left: 0vw;
 }
 
 .section3-text p {
   margin-top: 30vh;
   width: 50vw;
+  
 }
 
 .section3-text button {
@@ -435,8 +541,14 @@ img {
 }
 
 /* SECTION 4 */
+
 .section4 {
   height: 100%;
+}
+
+.section4-banner p {
+  width: 80vw;
+  margin-bottom: 4vh;
 }
 
 .section4-container {
@@ -472,82 +584,194 @@ img {
 
 .user-infos p {
   width: 30vw;
-  font-family: Muli;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.32px;
   text-align: left;
-  color: #9e9baf;
 }
 
 /* SECTION 5 */
 
+.section5 {
+  background-size: 70%;
+  background-position-x: right;
+  background-position-y: top;
+  padding-bottom: 0;
+}
+
 .section5-left-container {
   width: 38vw;
-  padding: 30vh 0 0 12vw;
+  padding: 30vh 10vw 0 5vw;
 }
 
 .section5-left-container h4 {
-  font-size: 32px;
-  font-weight: bold;
-  width: 30vw;
-  margin-bottom: 8vh;
-  letter-spacing: 1.44px;
-  color: #2d3561;
+  font-size: 0.9rem;
+  width: 50vw;
+  margin-bottom: 3vh;
+  text-align: center;
 
 }
 
 .search-bar-5 form {
   flex-flow: nowrap;
-  width: 40vw;
+  width: 80vw;
 }
 
 .search-bar-5 input {
-  width: 65% !important;
+  width: 100% !important;
+  height: fit-content;
+}
+
+.section5-button {
+  height: fit-content;
+  margin-left: 5vw;
+
 }
 
 .image-section5 {
-  width: 100%;
+  width: 0;
 }
 
 .image-section5 img {
-  width: 90%;
+  display: none;
 }
 
 /* FOOTER */
 
 .footer-container {
-  height: 8vh;
-  background-color: #ffffff;
+  margin: 3vh 5vw;
 }
 
 .copyrights {
-  width: 30vw;
-  font-family: Muli;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: normal;
-  text-align: left;
-  color: #1d164d;
-  margin-left: 12vw;
+  width: 40vw;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-left: 3vw;
 }
 
 .policy-conditions {
   width: 30vw;
-  font-family: Muli;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.32px;
-  text-align: left;
-  color: #9e9baf;
+  font-size: 0.7rem;
+  text-align: center;
 }
 
 .policy {
-  width: 20vw;
+  width: 40vw;
 }
 
 .conditions {
  width: 30vw;
+ margin: 0 10vw 0 10vw;
+}
+
+}
+
+/* RESPONSIVITY IPHONE X */
+
+@media (max-device-width: 375px){
+
+  .navbar-container {
+    padding: 0;
+  }
+  
+  
+  .section1-left-container {
+    padding: 35vh 0 0 5vw;
+  }
+
+  /* SECTION 2 */
+
+.recipe-name h4 {
+  font-size: 0.7rem;
+}
+
+.buttons {
+  font-size: 0.8rem !important;
+}
+
+/* SECTION 3 */
+
+.section3-text {
+  margin-top: 0vh;
+}
+
+.section3-text p {
+  margin-top: 0vh;
+  width: 50vw;
+  
+}
+
+.section3-text h4 {
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+}
+
+.section3-text p {
+  width: 85vw;
+  text-align: center;
+  color: #bcbcbc;
+  margin: 0 0 2vh 6vw !important;
+}
+
+.section5 {
+  background-size: 70%;
+  background-position-x: right;
+  background-position-y: top;
+  padding-bottom: 0;
+}
+
+.section5-left-container {
+  width: 38vw;
+  padding: 18vh 10vw 0 5vw;
+}
+
+.section5-left-container h4 {
+  font-size: 0.9rem;
+  width: 50vw;
+  margin-bottom: 3vh;
+  text-align: center;
+
+}
+
+.search-bar-5 form {
+  flex-flow: nowrap;
+  width: 80vw;
+}
+
+.search-bar-5 input {
+  width: 100% !important;
+  height: fit-content;
+}
+
+.section5-button {
+  height: fit-content;
+  margin-left: 5vw;
+
+}
+
+.image-section5 {
+  width: 0;
+}
+
+.image-section5 img {
+  display: none;
+}
+
+.footer-container {
+  margin: 0vh 5vw;
+}
+
+.conditions {
+  width: 30vw;
+  margin: 0 10vw 0 10vw;
+ }
+
+ .copyrights {
+  font-size: 0.6rem;
+}
+
+.policy-conditions {
+  font-size: 0.6rem;
 }
 
 

@@ -8,8 +8,8 @@ class Section4 extends Component {
 
   render() {
     return (
-      <section className="section2 d-flex flex-column">
-        <div className="section2-banner d-flex flex-column align-items-center mb-3 mt-4">
+      <section className="section4 d-flex flex-column">
+        <div className="section4-banner d-flex flex-column align-items-center mb-3 mt-4">
           <h3>Read Our Blog</h3>
           <p>
             Far far away, behind the word mountains, far from the countries
@@ -53,9 +53,8 @@ class Section4 extends Component {
                   max: 464,
                   min: 0
                 },
-                items: 1,
+                items: 1  ,
                 partialVisibilityGutter: 100,
-    slidesToSlide: 1
               }
             }}
             showDots={false}
@@ -63,7 +62,7 @@ class Section4 extends Component {
             slidesToSlide={1}
             swipeable
           >
-            <div class="section4-container ml-4">
+            <div className="section4-container ml-4">
               <div>
                 <img className='section4-img' src="./images/bloco_image_1.svg" alt="service-1" />
               </div>
@@ -79,7 +78,7 @@ class Section4 extends Component {
               </div>
             </div>
 
-            <div class="section4-container ml-4">
+            <div className="section4-container ml-4">
               <div>
                 <img className='section4-img' src="./images/bloco_image_2.svg" alt="service-2" />
               </div>
@@ -97,7 +96,7 @@ class Section4 extends Component {
               </div>
             </div>
 
-            <div class="section4-container ml-4">
+            <div className="section4-container ml-4">
               <div>
                 <img className='section4-img' src="./images/bloco_image_3.svg" alt="service-1" />
               </div>
@@ -113,7 +112,7 @@ class Section4 extends Component {
               </div>
             </div>
 
-            <div class="section4-container ml-4">
+            <div className="section4-container ml-4">
               <div>
                 <img className='section4-img' src="./images/bloco_image_4.svg" alt="service-1" />
               </div>

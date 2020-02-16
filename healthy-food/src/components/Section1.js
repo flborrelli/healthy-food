@@ -15,17 +15,10 @@ class Section1 extends Component {
           <div className="search-bar">
           <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search healthy recipes" aria-label="Pesquisar" />
-      <button className="buttons btn btn-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+      <button className="buttons btn btn-success my-2 my-sm-0" type="submit"><i className="fas fa-search"></i></button>
     </form>
           </div>
         </div>
-
-        <div className='image-section1'>
-          <figure>
-            <img src="./images/illustration.svg" alt="ilustration"/>
-          </figure>
-        </div>
-
       </section>
     );  
   }

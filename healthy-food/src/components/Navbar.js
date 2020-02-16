@@ -1,53 +1,43 @@
-import React, { Component } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { Nav, Navbar, Button, NavDropdown } from "react-bootstrap";
 
-class Navbar extends Component {
+class Navbar2 extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <nav className="navbar-top navbar navbar-expand-lg navbar-light position-absolute pt-2">
-        <NavLink className="nav-logo navbar-brand" to="#">
+      <nav className='navbar-container position-absolute'>
+      <Navbar
+        className="navbar-top "
+        expand="lg"
+      >
+        <Navbar.Brand className="nav-logo" href="#home">
           Healthy Food
-        </NavLink>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Alterna navegação"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="nav-buttons collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item active ml-3">
-              <NavLink className="navbar-links nav-link" to="#">
-                Healthy Recipes <span className="sr-only">(Página atual)</span>
-              </NavLink>
-            </li>
-            <li className="nav-item ml-3">
-              <NavLink className="navbar-links nav-link" to="#">
-                Blog
-              </NavLink>
-            </li>
-            <li className="nav-item ml-3">
-              <NavLink className="navbar-links nav-link" to="#">
-                Join
-              </NavLink>
-            </li>
-            <li className="nav-item ml-4 pr-5">
-              <button type="button" class="nav-button btn btn-success">Register</button>
-            </li>
-          </ul>
-        </div>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="button-box">
+          <Nav className="mr-auto">
+            <Nav.Link className="navbar-links" href="#home">
+              HEALTHY RECIPES
+            </Nav.Link>
+            <Nav.Link className="navbar-links ml-3" href="#link">
+              BLOG
+            </Nav.Link>
+            <Nav.Link className="navbar-links ml-3" href="#link">
+              JOIN
+            </Nav.Link>
+            <button type="button" className="nav-button btn btn-success ml-3">
+              REGISTER
+            </button>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
       </nav>
-    );  
+    );
   }
 }
 
-export default Navbar;
+export default Navbar2;
